@@ -3,36 +3,24 @@ import { Link } from "react-router-dom";
 
 const linksFooterContent = [
   {
-    itemName: "Home",
+    itemName: "Link",
     routePath: "/",
   },
   {
-    itemName: "Product",
-    routePath: "/product-customer-support",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "Pricing",
-    routePath: "/pricing-pm",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "About us",
-    routePath: "/about-pm",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "Features",
-    routePath: "/solution-management",
-  },
-  {
-    itemName: "Blog",
-    routePath: "/blog-v4",
-  },
-  {
-    itemName: "Help & Support",
-    routePath: "/login",
-  },
-  {
-    itemName: "API documentation",
-    routePath: "/doc-full-width",
+    itemName: "Link",
+    routePath: "/",
   },
 ];
 
@@ -57,28 +45,28 @@ const legalFooterContent = [
 
 const productsFooterContent = [
   {
-    itemName: "Take the tour",
-    routePath: "/product-customer-support",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "Team",
-    routePath: "/team-5",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "Self Service",
-    routePath: "/features-customer-support",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "News",
-    routePath: "/blog-v3",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "About us",
-    routePath: "/about-doc",
+    itemName: "Link",
+    routePath: "/",
   },
   {
-    itemName: "Contact",
-    routePath: "/contact-cs",
+    itemName: "Link",
+    routePath: "/",
   },
 ];
 
@@ -88,15 +76,16 @@ const FooterFour = () => {
       <div className="col-xl-4 col-lg-3 col-12 footer-about-widget">
         <div className="logo">
           <a href="index-event.html">
-            <img src="images/logo/deski_05.svg" alt="" />
+            <img src="/" alt="" />
+            <p>Logo here</p>
           </a>
         </div>
         <ul className="font-rubik mt-10">
           <li>
-            <a href="mailto:deskiinc@gmail.com">deskiinc@gmail.com</a>
+            <a href="mailto:deskiinc@gmail.com">test@gmail.com</a>
           </li>
           <li>
-            <a href="tel:+761 412 3224">+761 412 3224</a>
+            <a href="tel:+761 412 3224">123.456.789</a>
           </li>
         </ul>
       </div>
@@ -127,7 +116,7 @@ const FooterFour = () => {
       {/* /.footer-list */}
 
       <div className="col-xl-2 col-lg-3 col-md-4 footer-list">
-        <h5 className="footer-title font-slab">Products</h5>
+        <h5 className="footer-title font-slab">Chestii</h5>
         <ul className="pr-5">
           {productsFooterContent.map((list, i) => (
             <li key={i}>

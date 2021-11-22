@@ -52,7 +52,7 @@ const HeroBannerFour = () => {
               />
             </div>
             <p className="review-text">
-              Over <span>150,000+ client</span> all over the world.
+              Peste <span>nr clienti</span> fericiti.
             </p>
           </div>
           {/* End .col */}
@@ -60,7 +60,7 @@ const HeroBannerFour = () => {
           <div className="col-lg-6 order-lg-first">
             <div className="text-wrapper">
               <h1 data-aos="fade-up" data-aos-duration="1200">
-                <span>Event ticket</span> organiser & seller.
+                <span>Some title</span> here
               </h1>
               <p
                 className="sub-text"
@@ -68,18 +68,17 @@ const HeroBannerFour = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                For hassale free event, we are here to help you by creating
-                online ticket.
+                Some context here
               </p>
               <Link
-                to="/login"
+                to="/"
                 className="theme-btn-five"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
                 {" "}
-                Let’s get started
+                Where do you want this button to lead to?
               </Link>
             </div>
             {/* /.text-wrapper */}

@@ -3,18 +3,18 @@ import React from "react";
 const FeatureContent = [
   {
     icon: "60",
-    meta: "Smart popups",
-    subTitle: `Create customized popups and show the message at the lorem`,
+    meta: "Ceva misto",
+    subTitle: `Lorem ipsum some text here I don't know about`,
   },
   {
     icon: "61",
-    meta: "Embeded Forms",
-    subTitle: `Collect website leads with embedded forms and integrate easily.`,
+    meta: "Ceva misto",
+    subTitle: `Lorem ipsum some text here I don't know about`,
   },
   {
     icon: "62",
-    meta: "Autoresponder",
-    subTitle: `Send welcome email to your new subscribers with a code.`,
+    meta: "Ceva misto",
+    subTitle: `Lorem ipsum some text here I don't know about`,
   },
 ];
 

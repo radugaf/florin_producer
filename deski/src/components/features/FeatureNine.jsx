@@ -3,20 +3,18 @@ import React from "react";
 const FeatureContent = [
   {
     icon: "ils_15",
-    meta: "Join Our Platform",
-    subTitle: `  It only takes 5 minutes. Set up is smooth and simple fully lorem
-    qui.`,
+    meta: "Step 1",
+    subTitle: `Descriere step 1`,
   },
   {
     icon: "ils_16",
-    meta: "Manage you event",
-    subTitle: `Choose a price package to suit you or pay per ticket. Sell on your
-    website,`,
+    meta: "Step 2",
+    subTitle: `Descriere step 2`,
   },
   {
     icon: "ils_17",
-    meta: "Start selling ticket",
-    subTitle: `Get payments, detailed data on tickets sales & message guests lorem`,
+    meta: "Step 3",
+    subTitle: `Descriere step 3`,
   },
 ];
 

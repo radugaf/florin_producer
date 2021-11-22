@@ -6,8 +6,8 @@ const FormEvent = () => {
   };
   return (
     <form onClick={handleSubmit}>
-      <input type="text" placeholder="Email address" />
-      <button>Start Trial</button>
+      <input type="text" placeholder="Adresa de email" />
+      <button>Aboneaza-te</button>
     </form>
   );
 };

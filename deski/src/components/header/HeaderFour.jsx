@@ -28,7 +28,8 @@ const HeaderFour = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo">
             <Link to="/">
-              <img src="images/logo/deski_05.svg" alt="brand logo" />
+              <img src="" alt="brand logo" />
+              <p>Logo</p>
             </Link>
           </div>
           {/* End Logo */}
@@ -44,13 +45,13 @@ const HeaderFour = () => {
                   {/* End MegaMenu */}
 
                   <ul className="right-button-group d-flex align-items-center justify-content-center">
-                    <li>
+                    {/* <li>
                       <Link to="login" className="signIn-action">
                         Login
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link to="signup" className="theme-btn-five">
+                      <Link to="contact-us" className="theme-btn-five">
                         Create your event
                       </Link>
                     </li>

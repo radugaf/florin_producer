@@ -291,7 +291,8 @@ const MegaMenuMobile = () => {
         <SidebarHeader>
           <div className="logo position-static">
             <a href="index.html">
-              <img src="/images/logo/deski_07.svg" alt="home-demo" />
+              <img src="/" alt="home-demo" />
+              <p>Logo here</p>
             </a>
           </div>
           <div className="fix-icon text-dark" onClick={handleClick}>

@@ -7,14 +7,13 @@ const CallToActionFive = () => {
     <>
       <div className="title-style-five text-center">
         <h2>
-          <span>Sign up & get started</span>
+          <span>Lasa-ne sa te contactam bla bla bla</span>
         </h2>
       </div>
       <div className="row">
         <div className="col-xl-7 col-lg-8 col-md-9 m-auto">
           <p className="font-rubik sub-heading">
-            Our ticketing platform is made for you - & loved by everyone lorem
-            ipsum.
+            Lorem Ipsum ceva ceva ceva ceva ceva
           </p>
         </div>
         {/* End .col */}
@@ -23,9 +22,9 @@ const CallToActionFive = () => {
       <div className="row">
         <div className="col-xl-7 col-lg-8 col-md-10 m-auto">
           <FormEvent />
-          <p className="info-text">
+          {/* <p className="info-text">
             Already a member? <Link to="login">Sign in.</Link>
-          </p>
+          </p> */}
         </div>
         {/* End .col */}
       </div>

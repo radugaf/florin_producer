@@ -70,7 +70,7 @@ const EventOrganizer = () => {
           <div className="title-style-five text-center mb-60 md-mb-30">
             <h6>GET STARTED IN MINUTES</h6>
             <h2>
-              <span>3 simple & easy step to launch.</span>
+              <span>Ceva ceva ceva </span>
             </h2>
           </div>
           {/* End title */}
@@ -123,10 +123,10 @@ const EventOrganizer = () => {
       {/* /.why should you choose us */}
 
       {/* 
-     =============================================
+    ==============================================
 				Pricing Section Three
 		============================================== */}
-      <div className="pricing-section-three mt-250 mb-200 md-mt-150 md-mb-150">
+      {/* <div className="pricing-section-three mt-250 mb-200 md-mt-150 md-mb-150">
         <img
           src="images/shape/107.svg"
           alt="shape"
@@ -170,17 +170,23 @@ const EventOrganizer = () => {
 
           <div className="pricing-table-area-three">
             <PricingThree />
-          </div>
+          </div> */}
           {/* /.pricing-table-area-three */}
-        </div>
+        {/* </div> */}
         {/* ./container */}
-      </div>
+      {/* </div> */}
       {/* /.pricing-section-three */}
 
       {/* 
      =============================================
 				Client Feedback Slider
 		============================================== */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="client-feedback-slider-three mb-250 ">
         <div className="container">
           <div className="title-style-five text-center mb-80 md-mb-50">
@@ -300,6 +306,9 @@ const EventOrganizer = () => {
           </div>
           {/* /.container */}
         </div>
+        <br />
+        <br />
+        <br />
 
         <div className="container">
           <div className="bottom-footer-content">
@@ -310,9 +319,9 @@ const EventOrganizer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                ib-themes
+                Mandarina alba
               </a>{" "}
-              inc.
+              srl. Toate drepturile lega talks.
             </p>
           </div>
           {/* /.bottom-footer */}
